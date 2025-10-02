@@ -1,1 +1,38 @@
 https://codepen.io/ConorTUD/pen/ZYQpGQX
+<!DOCTYPE html>
+<html>
+<head>
+<title>Snow Boarders</title>
+</head>     
+<hr>
+  <header>
+    <h1>Snow Boarders</h1>
+  <nav>
+    <a href="www.google.com">Login</a> |
+    <a href="About.html">About</a> |
+    <a href="contact.html">Contact</a> 
+  </nav>
+      <header>
+<hr>
+<body>
+<div id="Snow Boarders">
+<h2>Conquer the mountains with us!</h2>
+  </div>
+<p>Experience the thrill of winter sports</p>
+<img src="https://images.stockcake.com/public/6/3/2/63265d4c-6983-4a99-b399-aeffe8f9f210_large/sunset-skiing-adventure-stockcake.jpg" alt="Front_Page", width="400px"/>
+<button>Book your trip</button>
+  
+ <section>
+   <h3>Why Choose Us?</h3>
+   
+  <ul>
+   <li>50+ Destination</li>
+    <li>15 Years Of Experience</li>
+    <li>150+ Happy Customers</li>
+    </section>
+   
+  <footer>
+    <p>Share Your Journey With Us!!!<p>
+   </footer>
+</body>
+</html>
