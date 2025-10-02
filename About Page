@@ -1,1 +1,72 @@
 https://codepen.io/ConorTUD/pen/azdmONK
+<!DOCTYPE html>
+<html>
+<head>
+<title>Snow Boarders</title>
+</head>
+<body>
+  <h1>About this Website</h1>
+  <hr>
+  <h2>
+    Who is 
+    <mark>
+      Lucas Snow?
+    </mark>
+    </h2>
+  <p1>
+    Lucas Snow is a winter sports enthusiast who has travelled the world for his passion.
+    <br> 
+    He wants to share his love for winter sports with the world through this website.
+    <br>
+    <a href="www.google.com"/>
+    Contact Him
+    </a>
+  </p1>
+  <hr>
+  <h2>
+    What do we do?
+  </h2>
+  <p2>
+    <ol>
+      <li> We advertise countless destinations for winter sporting activites.</li>
+      <img
+           height=80
+           src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2ludGVyJTIwc3BvcnR8ZW58MHx8MHx8fDA%3D"/>
+     <br>
+  <li> We are sponsored by the most iconic brands for winter sporting equipment, suited for both amateurs and veterans!</li>
+      <img
+           height=80
+           src="https://images.unsplash.com/photo-1498146831523-fbe41acdc5ad?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+      <br>
+      <li>
+        We allow our users to share their pictures and reviews of their winter sporting adventures!
+      </li>
+      <img
+           height=80
+           src="https://images.unsplash.com/photo-1625154869776-100eba31abbb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNub3dib2FyZHxlbnwwfHwwfHx8MA%3D%3D"/>
+    <a href="www.google.com"/>
+    <br>
+    Shop Now
+    </ol>
+  </p2>
+  </a>
+<hr>
+<h2>
+  How do I join in?
+</h2>
+<p3>
+  You can join Lucas Snow in winter sports by booking a trip through our website,
+  <br>
+  sharing your adventure online and leaving a friendly review!</p3>
+<br>
+<a href="www.google.com"/>
+Book Now
+</a>
+  <h2>
+    <a href="www.google.com"/>
+    <footer>
+      Learn more
+    </footer></a>
+  </h2>
+</body>
+</html>
