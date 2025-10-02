@@ -1,0 +1,49 @@
+https://codepen.io/ConorTUD/pen/LEGRpEE
+<!DOCTYPE html>
+<html>
+<head>
+<title>
+  Snow Boarders
+  </title>
+</head>
+<body>
+<h1>
+  Contacts Page
+  </h1>
+  <hr>
+  <h2>
+    Snow Boarders Company
+    <hr>
+    <img
+         height=130    src="https://media.istockphoto.com/id/1452771551/vector/contact-us-button-with-cursor-pointer-click-vector-web-button.jpg?s=612x612&w=0&k=20&c=IGWQ-VhsNAnZyKnuWhggHhpozUiuFRq5jd-rJ7-KqIc="
+    <ol>
+      <li>
+        <a href="www.google.com"/>
+        Email</li></a>
+    <br>
+      <li><a href="www.google.com"/>
+        Phone</li></a>
+    <br>
+      <li><a href="www.google.com"/>
+        Instagram</li></a>
+      </li>
+    </ol>
+  </a>
+  <p>
+    <hr>
+    Lucas Snow
+<hr>
+    <a href="www.google.com"/>
+  <ol>
+    <li><a href="www.google.com"/>
+      Email</li></a>
+   <br><li><a href="www.google.com"/>
+    Phone</li></a>
+    <br><li><a href="www.google.com"/>
+    Facebook</li></a>
+  </a>
+  </p>
+</h2>
+
+</body>
+</html>
