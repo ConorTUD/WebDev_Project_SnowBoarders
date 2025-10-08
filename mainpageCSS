@@ -1,0 +1,35 @@
+h1{
+  font-style:Montserrat;
+  font-family:Georgia;
+  font-size: 200%;
+}
+
+h2{
+  text-decoration-line: underline;
+  font-family: serif;
+  font-style: Archivo narrow;
+  font-size:200%;
+}
+
+h3{
+   text-decoration-line: underline;
+  font-family: serif;
+  font-style: Archivo narrow;
+  font-size:150%;
+}
+
+p{
+  font-family:lato;
+  font-size:120%;
+}
+
+li{
+   font-family:lato;
+  font-size:100%;
+}
+
+.end{
+   font-family:anton;
+  font-style: bebas neue;
+   font-size:200%;
+}
