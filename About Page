@@ -2,10 +2,59 @@ https://codepen.io/ConorTUD/pen/azdmONK
 <!DOCTYPE html>
 <html>
 <head>
-<title>Snow Boarders</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidenav */
+  font-size: 28px; /* Increased text to enable scrolling */
+  padding: 0px 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+</style>
 </head>
 <body>
-  <h1>About this Website</h1>
+
+<div class="sidenav">
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#clients">Clients</a>
+  <a href="#contact">Contact</a>
+</div>
+
+<div class="main">
+<h1>About this Website</h1>
   <hr>
   <h2>
     Who is 
@@ -20,23 +69,23 @@ https://codepen.io/ConorTUD/pen/azdmONK
     <br>
     <a href="www.google.com"/>
     Contact Him
+    <hr>
     </a>
   </p1>
-  <hr>
-  <h2>
-    What do we do?
-  </h2>
+  <h2>What do we do?</h2>
   <p2>
     <ol>
       <li> We advertise countless destinations for winter sporting activites.</li>
       <img
            height=80
            src="https://images.unsplash.com/photo-1551698618-1dfe5d97d256?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8d2ludGVyJTIwc3BvcnR8ZW58MHx8MHx8fDA%3D"/>
+           <hr>
      <br>
   <li> We are sponsored by the most iconic brands for winter sporting equipment, suited for both amateurs and veterans!</li>
       <img
            height=80
            src="https://images.unsplash.com/photo-1498146831523-fbe41acdc5ad?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"/>
+           <hr>
       <br>
       <li>
         We allow our users to share their pictures and reviews of their winter sporting adventures!
@@ -44,13 +93,7 @@ https://codepen.io/ConorTUD/pen/azdmONK
       <img
            height=80
            src="https://images.unsplash.com/photo-1625154869776-100eba31abbb?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fHNub3dib2FyZHxlbnwwfHwwfHx8MA%3D%3D"/>
-    <a href="www.google.com"/>
-    <br>
-    Shop Now
-    </ol>
-  </p2>
-  </a>
-<hr>
+           <hr>
 <h2>
   How do I join in?
 </h2>
@@ -68,5 +111,40 @@ Book Now
       Learn more
     </footer></a>
   </h2>
+</div>
+   
 </body>
-</html>
+</html> 
+
+
+CSS
+
+
+.sidenav {
+  height: 100%; 
+  width: 140px; 
+  position: right; 
+  z-index: 1; 
+  top: 0; 
+  left: 0;
+  background-color: #111; 
+  overflow-x: hidden; 
+  padding-top: 20px;
+}
+
+.sidenav a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.main {
+  margin-left: 160px; /* Same as the width of the sidebar */
+  padding: 0px 10px;
+}
