@@ -1,51 +1,47 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>
-  Snow Boarders
-  </title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Snow Boarders</title>
 </head>
 <body>
-<h1>
-  Contacts Page
-  </h1>
+
+  <h1>Contacts Page</h1>
   <hr>
-  <h2>
-    Snow Boarders Company
-    <hr>
-    <img
-         height=130    src="https://media.istockphoto.com/id/1452771551/vector/contact-us-button-with-cursor-pointer-click-vector-web-button.jpg?s=612x612&w=0&k=20&c=IGWQ-VhsNAnZyKnuWhggHhpozUiuFRq5jd-rJ7-KqIc="
-    <ol>
-      <li>
-        <a href="www.google.com"/>
-        Email</li></a>
-    <br>
-      <li><a href="www.google.com"/>
-        Phone</li></a>
-    <br>
-      <li><a href="www.google.com"/>
-        Instagram</li></a>
-      </li>
-    </ol>
-  </a>
-  <p>
-    <hr>
-    Lucas Snow
-<hr>
-    <a href="www.google.com"/>
+
+  <h2>Snow Boarders Company</h2>
+  <hr>
+
+  <img
+    height="130"
+    src="https://media.istockphoto.com/id/1452771551/vector/contact-us-button-with-cursor-pointer-click-vector-web-button.jpg?s=612x612&w=0&k=20&c=IGWQ-VhsNAnZyKnuWhggHhpozUiuFRq5jd-rJ7-KqIc="
+    alt="Contact Us Button">
+
   <ol>
-    <li><a href="www.google.com"/>
-      Email</li></a>
-   <br><li><a href="www.google.com"/>
-    Phone</li></a>
-    <br><li><a href="www.google.com"/>
-    Facebook</li></a>
-  </a>
-  </p>
-</h2>
-<h1>
-<button>Book your trip now!
-</h1>
+    <li><a href="https://www.google.com" target="_blank">Email</a></li>
+    <br>
+    <li><a href="https://www.google.com" target="_blank">Phone</a></li>
+    <br>
+    <li><a href="https://www.google.com" target="_blank">Instagram</a></li>
+  </ol>
+
+  <hr>
+
+  <p><strong>Lucas Snow</strong></p>
+  <hr>
+
+  <ol>
+    <li><a href="https://www.google.com" target="_blank">Email</a></li>
+    <br>
+    <li><a href="https://www.google.com" target="_blank">Phone</a></li>
+    <br>
+    <li><a href="https://www.google.com" target="_blank">Facebook</a></li>
+  </ol>
+
+  <hr>
+
+  <button>Book your trip now!</button>
 
 </body>
 </html>
