@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" href="style.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="UTF-8">
 <style>
@@ -110,8 +111,6 @@ body {
     </footer>
   </h2>
 </div>
-
-<link rel="stylesheet" href="style.css">
 
 </body>
 </html>
