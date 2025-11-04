@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head><link rel="stylesheet" href="css/mainpages.css">
 <title>Snow Boarders</title>
 </head>     
 <hr>
   <header>
     <h1>Snow Boarders</h1>
   <nav>
-    <a href="www.google.com">Login</a> |
-    <a href="About.html">About</a> |
-    <a href="contact.html">Contact</a> 
+    <a href="./pages/aboutpage.html" target="_blank">About</a> |
+    <a href="./pages/contactpage.html" target="_blank">Contact</a> 
   </nav>
       <header>
 <hr>
@@ -29,8 +28,7 @@
     <li>15 Years Of Experience</li>
     <li>150+ Happy Customers</li>
     </section>
-   <a href=""C:\Users\A00027078\Downloads\mainpageCSS.css">
-</a>
+   
   <footer>
     <p>Share Your Journey With Us!!!<p>
    </footer>
