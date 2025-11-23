@@ -1,53 +1,170 @@
-<html>
-<head><link rel="stylesheet" href="../css/explore.css">
-<Title>Explore</Title>
-</head>
-
-<hr>
-    <header>
-        <h1>SNOWBOARDING ADVENTURE TRIPS</h1>
-        <p>Ready to glide down real-life postcard mountains? Our Snowboarding trips are built to first time, pros and everyone in-between</p>  
-    </header>
-<hr>
-<body>
-
-  <div class="container">
-    <h2>INCLUDED IN YOUR TRIP</h2>
-
-    <ul>
-        <li>Snowboarding Lessons - Friendly certified instructors</li>
-      <li>Guided Mountains Runs - Explore slopes safety with your squad</li>
-      <li>Cozy Chill Spots - Warm drinks, rest lounges, great vibes</li>
-      <li>Night Snowboarding - Lights, Music, and a little games to play</li>
-
-    </ul>
+header {
+  text-align: center;
+  background: url("https://images.pexels.com/photos/267104/pexels-photo-267104.jpeg") 
+              center/cover no-repeat;
+  color: white;
+  padding: 80px 20px;
+  border-radius: 10px;
   
- <section>
-   <h3>FREE GEARS INCLUDED</h3>
-   <ul>
-      <li>Snowboard</li>
-      <li>Boots</li>
-      <li>Helmet</li>
-      <li>Knee and wrist pads</li>
-    </ul>
+  position: relative;
+}
 
-        <img src="/mnt/data/8514f4a4-96fa-45fe-8a72-5cff6514e43d.png"
-       alt="Illustration of snowboard and winter gear"
-       class="section-img">
 
-  </section>
-</div>
+header::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.45); 
+    border-radius: 10px;
+}
 
-<hr>
+header h1, header p {
+  position: relative; 
+  
+}
 
-  <footer>
-    <h4>Join The Ride! ! ! Experience the thrill of the mountains like never before!</h4>
-    <p>Our snowboarding trips are designed for beginners, intermediate riders, and pros looking for the next challenge. Whether you're cruising down smooth slopes or carving into fresh powder, we make every moment unforgettable.</p>
 
-    <ul>
-      <li>Book your snowboarding today!</li>
-      <li>Follow our skateboard stories and join the community!</li>
-    </ul>
-   
-</body>
-</html>
+.container {
+    background-color: lightblue;
+    padding: 100px 20px;
+}
+
+h2{
+    text-align: center;
+    margin-top:-40px;
+    margin-bottom:40px;
+    font-size: 30px;
+    text-decoration: underline;
+    
+}
+
+h3{
+    text-align: center;
+    margin-top:50px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+
+
+
+.footer-img{
+    width: fit-content;
+    display:block;
+    margin: auto;
+    border-radius: 10px;
+
+}
+
+footer {
+  background: url("https://images.pexels.com/photos/11198046/pexels-photo-11198046.jpeg") 
+              center/cover no-repeat;
+  color: white;
+  padding: 80px 20px;
+  border-radius: 10px;
+  
+  position: relative;
+}
+
+
+footer::before {
+    content: "";
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0, 0, 0, 0.45); 
+    border-radius: 10px;
+}
+
+footer h4{
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+
+}
+
+footer p {
+  position: relative;
+  text-align: center;
+  
+}
+
+footer ul{
+    position: relative;
+}
+
+
+h1 { font-size: 200%; }
+h2 { font-size: 200%; }
+h3 { font-size: 150%; }
+p  { font-size: 120%; }
+li { font-size: 100%; }
+.end { font-size: 200%; }
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+nav a {
+  display: block;
+  margin: 5px 0;
+  text-align: center;
+}
+
+button {
+  padding: 10px 20px;
+  width: 90%;
+  max-width: 300px;
+  font-size: 16px;
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+  h1 { font-size: 250%; }
+  h2 { font-size: 220%; }
+  h3 { font-size: 180%; }
+  p  { font-size: 130%; }
+  li { font-size: 110%; }
+  .end { font-size: 220%; }
+
+  figure img { max-width: 600px; }
+
+  nav a {
+    display: inline-block;
+    margin:15px;
+  }
+
+  button {
+    padding: 12px 24px;
+    width: auto;
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1025px) {
+  h1 { font-size: 300%; }
+  h2 { font-size: 260%; }
+  h3 { font-size: 200%; }
+  p  { font-size: 140%; }
+  li { font-size: 120%; }
+  .end { font-size: 250%; }
+
+  body {
+    max-width: 1200px;
+    margin: auto;
+  }
+
+  figure img { max-width: 800px; }
+
+  nav a {
+    display: inline-block;
+    margin:20px;
+    font-size: 1.2rem;
+  }
+
+  button {
+    padding: 14px 28px;
+    font-size: 19px;
+  }
+}
+
